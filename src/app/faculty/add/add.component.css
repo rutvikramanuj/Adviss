@@ -1,0 +1,29 @@
+
+.advissColumn{
+    /* text-align: center; */
+    /* margin: 0px 10px ; */
+}
+.addDetailsClipart{
+    /* width: 160%; */
+}
+.row-right{
+    padding-left: 150px;;
+}
+#btn-Faculty{
+    margin-left:120px;
+}
+.btnModify{
+    margin-top: 30px;
+    width: 90px;
+}
+.fade-in{
+    animation: FadeIn 1s ease-in;
+}
+@keyframes FadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

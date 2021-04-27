@@ -1,0 +1,71 @@
+#cardForHover:hover{    
+    opacity: 80%;
+}
+cssForAddCard{
+    visibility: hidden;
+}
+.card-body-add{
+    padding: 10px;
+}
+.addStudentImage{
+    width: 300px;
+}
+.modifyStudentImage{
+    width: 300px;
+}
+.removeStudentImage{
+    width: 300px;
+}
+@media(max-width: 600px) {
+    .card-body-add{
+      
+    }
+    .addStudentImage{
+        width: 80px;
+    }
+    .modifyStudentImage{
+        width: 80px;
+    }
+    .removeStudentImage{
+        width: 80px;
+    }
+}
+.btnModify{
+    width: 90px;
+}
+.cardAdd{
+animation: FadeIn 0.5s ease-in;
+}
+@keyframes FadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.cardModify{
+    animation: FadeIn 1s ease-in;
+}
+@keyframes FadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.cardRemove{
+    animation: FadeIn 1.5s ease-in;
+}
+@keyframes FadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+

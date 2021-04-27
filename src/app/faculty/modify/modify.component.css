@@ -1,0 +1,42 @@
+#col-md-id{
+
+}
+.advissColumn{
+    /* text-align: center; */
+    /* margin: 0px 10px ; */
+}
+.addDetailsClipart{
+   margin:25%;
+    width: 100%;
+}
+.btnModify{
+    margin-top: 30px;
+    width: 90px;
+}
+.row-right{
+    
+    padding-left: 150px;
+}
+#btn-Faculty{
+    margin-left:120px;
+}
+#loginId{
+    margin-top: 200px;
+    margin-left: 30.333333%;
+    padding: 10px;
+}
+.modifyDetailsClipart{
+    margin-top: 10px;
+    margin-left: 90px;
+}
+.fade-in{
+    animation: FadeIn 1s ease-in;
+}
+@keyframes FadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

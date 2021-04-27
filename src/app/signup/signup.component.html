@@ -1,0 +1,33 @@
+<!-- <div class="row">
+    <div class="col-md-3">
+      <img class="studentPng" src="/assets/images/student (3).png" (click)="studentSelected()" alt="student">
+    </div>
+    <div class="col-md-3">
+      <img class="facultyPng"  src="/assets/images/teacherPng1.png" (click)="facultySelected()"  alt="faculty">
+    </div>
+    <div class="col-md-3">
+      <img class="clerkPng"  src="/assets/images/clerk2.png" (click)="clerkSelected()" alt="clerk">
+    </div>
+    <div class="col-md-3">
+      <img class="adminPng"  src="/assets/images/admin2.png" (click)="adminSelected()"  alt="faculty">
+    </div>
+</div> -->
+
+  <div class="row">
+    <div class="col-md-4">
+      <div class="col-md-8 advissColumn">
+        <h1 class="advissTitle">ADVISS </h1>
+        <p class="aboutAdviss">We are Providing Your Child's Personal Activity Via CCTV So Parent Can See Their Child's Activity in their Device via ADVISS</p>
+        <button class="btn btn-danger btn-option1" (click)="studentSelected()" >Student</button>
+        <button class="btn btn-dark btn-option2" (click)="clerkSelected()">Clerk</button>
+        <button class="btn btn-danger btn-option3" (click)="facultySelected()">Faculty</button>
+        <button class="btn btn-dark btn-option4" (click)="adminSelected()">Admin</button>
+      </div>
+    </div>
+    <div class="col-md-5 offset-2">
+<router-outlet></router-outlet>
+      <h1 *ngIf="selectOption" class="selectOption">select an Option</h1>
+  </div>
+
+
+

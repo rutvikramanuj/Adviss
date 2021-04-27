@@ -1,0 +1,58 @@
+<div [hidden]="optionNotSelected" class="row" style="padding:50px;" >
+        
+    <div class="col-md-4 cssForAddCard"
+       (click)="addStudentDiv()"
+     id="cardForHover" 
+    
+     >
+
+    <div class="card cardAdd card-body-add" >
+        <img  
+        src="/assets/images/addStudentDetails(1).png" 
+        alt="addStudentDetailsLogo"
+        class="addStudentImage"
+        >
+
+        <div class="card-body ">
+            <h5 class="card-title">Add Student Details</h5>
+            <p class="card-text">To Add Details Of A New Student</p>
+            <button class="btn btn-dark btnModify">add</button>
+        </div>
+    </div>
+    </div>
+
+    <div class="col-md-4 cardModify toVisibleFeature"
+    (click)="modifyStudentDiv()"
+     id="cardForHover">
+    <div class="card" style="padding: 10px;">
+        <img 
+        src="/assets/images/modifyDetails(1).png" 
+        alt="addStudentDetailsLogo"
+        class="modifyStudentImage"
+        >
+        <div class="card-body">
+            <h5 class="card-title">Modify</h5>
+            <p class="card-text">To Modify Existed Student Details</p>
+            <button class="btn btn-dark btnModify">Modify</button>
+        </div>
+    </div>
+</div>
+    <div class="col-md-4 cardRemove toVisibleFeature" 
+    (click)="removeStudentDiv()"
+     id="cardForHover"
+     >
+    <div class="card" style="padding: 10px;">
+        <img 
+        src="/assets/images/addStudentDetails(11) .png" 
+        alt="addStudentDetailsLogo"
+        class="removeStudentImage">
+        <div class="card-body ">
+            <h5 class="card-title">Remove</h5>
+            <p class="card-text">To Remove Student Details</p>
+            <button class="btn btn-dark btnModify">Remove</button>
+        </div>
+    
+</div>
+</div>
+</div>
+<router-outlet></router-outlet>
